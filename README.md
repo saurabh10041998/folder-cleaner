@@ -7,9 +7,9 @@
 - [x] track the downloads folder for filechange
 - [x] move the folder to the desired destination
 - [ ] rename the duplicate folder properly
-- [ ] create the file subsystems for these folder
+- [x] create the file subsystems for these folder
 - [ ] run the app the background
-- [ ] works for different types of files
+- [x] works for different types of files
 
 #### Came up to reading part
 - got nice blog documentation.. check out
