@@ -13,7 +13,7 @@ class MyHandler(FileSystemEventHandler):
                 fname, file_extension = os.path.splitext(folder_to_track+"\\"+filename)
                 file_extension = str(file_extension)
                 src = folder_to_track + "\\" + filename
-                dest = folder_destination_path + "\\"+filename
+                dest = extensions_folder[file_extension]+"\\"+filename
                 shutil.move(src, dest)
 
 
@@ -147,14 +147,33 @@ extensions_folder = {
     '.dart' : "D:\\Saurabh\\Programming\\Dart",
     '.py' : "D:\\Saurabh\\Programming\\Python",
     '.sh': "D:\\Saurabh\\Programming\\Shell",
-    '.swift' : "D:\\Saurabh\\Programming\\Swift"
+    '.swift' : "D:\\Saurabh\\Programming\\Swift",
     '.html': "D:\\Saurabh\\Programming\\C&C++",
     '.h' : "D:\\Saurabh\\Programming\\C&C++",
 
-    #
+    #Spreadsheets
+    '.ods': "D:\\Saurabh\\Text\\Excel",
+    '.xlr' : "D:\\Saurabh\\Text\\Excel",
+    '.xls': "D:\\Saurabh\\Text\\Excel",
+    '.xlsx' : "D:\\Saurabh\\Text\\Excel",
 
-
-
+    #System
+    '.bak' : "D:\\Saurabh\\Other\\System",
+    '.cab' : "D:\\Saurabh\\Other\\System",
+    '.cfg': "D:\\Saurabh\\Other\\System",
+    '.cpl': "D:\\Saurabh\\Other\\System",
+    '.col': "D:\\Saurabh\\Other\\System",
+    '.cur': "D:\\Saurabh\\Other\\System",
+    '.dll':"D:\\Saurabh\\Other\\System",
+    '.dmp':"D:\\Saurabh\\Other\\System",
+    '.drv': "D:\\Saurabh\\Other\\System",
+    '.icns': "D:\\Saurabh\\Other\\System",
+    '.ico': "D:\\Saurabh\\Other\\System",
+    '.ini': "D:\\Saurabh\\Other\\System",
+    '.lnk': "D:\\Saurabh\\Other\\System",
+    '.msi': "D:\\Saurabh\\Other\\System",
+    '.sys': "D:\\Saurabh\\Other\\System",
+    '.tmp': "D:\\Saurabh\\Other\\System",
 }
 
 
