@@ -10,3 +10,9 @@
 - [ ] create the file subsystems for these folder
 - [ ] run the app the background
 - [ ] works for different types of files
+
+#### Came up to reading part
+- got nice blog documentation.. check out
+<a href = "https://www.michaelcho.me/article/using-pythons-watchdog-to-monitor-changes-to-a-directory">
+    Simple watchdog documentation code..
+</a>
