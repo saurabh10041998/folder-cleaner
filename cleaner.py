@@ -16,3 +16,10 @@ class Watcher:
 
         try:
             while True:
+                time.sleep(10)
+        except:
+            self.observer.stop()
+            print "Error"
+        
+        self.observer.join()
+        
