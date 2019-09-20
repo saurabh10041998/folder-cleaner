@@ -102,6 +102,7 @@ extensions_folder = {
     '.rar' : "D:\\Saurabh\\Other\\Compressed",
     '.rpm' : "D:\\Saurabh\\Other\\Compressed",
     '.tar.gz' : "D:\\Saurabh\\Other\\Compressed",
+    '.gz': "D:\\Saurabh\\Other\\Compressed",
     '.z' : "D:\\Saurabh\\Other\\Compressed",
     '.zip' : "D:\\Saurabh\\Other\\Compressed",
 
