@@ -22,5 +22,5 @@
 -   <code> pythonw autocleaner.py </code>
     <p> To stop the running script </p>
 -   <code> tskill pythonw <code>
-    <p> To check the it running or not
+    <p> To check the it running or not</p>
 -   <code> taskset </code>
