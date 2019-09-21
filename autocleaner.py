@@ -13,8 +13,13 @@ class MyHandler(FileSystemEventHandler):
                 fname, file_extension = os.path.splitext(folder_to_track+"\\"+filename)
                 file_extension = str(file_extension)
                 src = folder_to_track + "\\" + filename
-                dest = extensions_folder[file_extension]+"\\"+filename
-                shutil.move(src, dest)
+                try :
+                    dest = extensions_folder[file_extension]+"\\"+filename
+                    shutil.move(src, dest)
+                except KeyError:
+                    file_extension = 'noname'
+                    dest = extensions_folder[file_extension]+"\\"+filename
+                    shutil.move(src, dest)
 
 
 extensions_folder = {
